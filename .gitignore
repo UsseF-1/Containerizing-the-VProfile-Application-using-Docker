@@ -1,0 +1,13 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Docker
+**/*.log
+
+# Vagrant (if you add it later)
+.vagrant/

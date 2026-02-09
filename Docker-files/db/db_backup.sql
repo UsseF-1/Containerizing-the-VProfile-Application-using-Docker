@@ -1,0 +1,9 @@
+-- Place the real db_backup.sql from the upstream VProfile repository here.
+-- In the original course repository, this file initializes the 'accounts' database with schema and seed data.
+--
+-- Quick way to obtain it:
+-- 1) git clone https://github.com/hkhcoder/vprofile-project.git
+-- 2) checkout the appropriate branch used in your course (often: containers or local)
+-- 3) copy the db_backup.sql into this folder
+--
+-- This placeholder exists so you can commit and push the repo structure to GitHub immediately.
