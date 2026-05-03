@@ -8,8 +8,8 @@ LABEL Project="vprofile" \
       Maintainer="your-name"
 
 # Required environment for MySQL initialization
-ENV MYSQL_ROOT_PASSWORD=vprodbpass
-ENV MYSQL_DATABASE=accounts
+ENV MYSQL_ROOT_PASSWORD=YOUR_PASSWORD
+ENV MYSQL_DATABASE=YOUR_DB_NAME
 
 # MySQL entrypoint will execute *.sql/*.sh from this directory on first start
 ADD db_backup.sql /docker-entrypoint-initdb.d/db_backup.sql
